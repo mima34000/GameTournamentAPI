@@ -34,3 +34,8 @@ A RESTful Web API built with ASP.NET Core and Entity Framework Core for managing
 - Async/await throughout
 - Dependency Injection with Scoped lifetime
 - Code First database with EF Core Migrations
+
+- ## API Documentation
+
+- Scalar UI: https://localhost:7226/scalar/v1
+- OpenAPI JSON: https://localhost:7226/openapi/v1.json
