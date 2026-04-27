@@ -1,6 +1,7 @@
 using GameTournamentAPI.Data;
 using GameTournamentAPI.Services;
 using Microsoft.EntityFrameworkCore;
+using Scalar.AspNetCore;
 
 namespace GameTournamentAPI
 {
@@ -25,6 +26,7 @@ namespace GameTournamentAPI
             if (app.Environment.IsDevelopment())
             {
                 app.MapOpenApi();
+                app.MapScalarApiReference();
             }
 
             app.UseHttpsRedirection();
